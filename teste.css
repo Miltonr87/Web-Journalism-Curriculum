@@ -1,0 +1,185 @@
+header {
+    color: white;
+    font-family: 'Notable', sans-serif;
+    font-size: xx-large;
+    font-weight: inherit;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    height: 80px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+main {
+    font-family: 'Nova Square', cursive;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+}
+
+h2 {
+    font-style: italic;
+}
+
+strong {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    display: inline-block;
+    align-items: center;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    opacity: 1;
+	transition: 4s;
+}
+
+.container2 h2 {
+    text-align: justify;
+}
+
+.container2 p {
+    text-align: justify;
+}
+
+
+.perfil {
+    width: 170px;
+    float: left;
+    margin: 20px 20px 20px 70px;
+}
+
+.title-content {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 1em;
+    clear: left;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 50px;
+}
+
+.job-class {
+    width: 50%;
+    cursor: pointer;
+}
+
+.container a {
+    align-items: center;
+    text-align: center;
+    width: 32%;
+    margin: 2% 2% 0% 1%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container li:hover {
+    border-color: #C78C19;
+}
+
+.container li:active {
+	border-color: #088C19;	
+}
+
+.container li:hover h2 {
+	font-size: 34px;
+}
+
+.container h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.job-description {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.job-category {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+	color: white;
+    padding: 40px 0;
+    opacity: 1;
+    font-size: 13px;
+    margin: 20px 0 0;
+    box-shadow: 0px 80px 10px 89px #000000;
+}
+
+/* .copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+    margin: 20px 0 0;
+} */
+
+@media screen and (max-width: 600px) {
+    
+    .header {
+        width: 100%;
+        height: auto;
+        font-size: medium;
+    }
+
+    h1 {
+		text-align: center;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .perfil {
+        width: 70%;
+        margin: 15%;
+    }
+    
+    .container {
+        width: 55%;
+        font-size: small;
+    }
+
+    .title-content, .jobs, .job-description, .job-category {
+        width: auto;
+        font-size: small;
+    }
+
+    .job-class {
+        width: 70%;
+    }
+    
+    .jobs h2 {
+        font-size: smaller;
+    }
+
+}
